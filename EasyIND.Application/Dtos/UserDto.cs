@@ -19,11 +19,15 @@ namespace EasyIND.Application.Dtos
 
         public string Email { get; set; } = string.Empty;
 
+        public string University { get; set; } = string.Empty;
+
         public string Password { get; set; }
 
         public string Phone { get; set; } = string.Empty;
 
         public Roles roles { get; set; }
+
+        public int RegistroId { get; set; }
 
     }
 }
