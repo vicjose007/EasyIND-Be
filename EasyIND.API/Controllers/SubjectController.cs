@@ -49,6 +49,7 @@ namespace EasyIND.API.Controllers
         {
 
             subject.SubjectName = request.SubjectName;
+            subject.AreaId = request.AreaId;
 
 
             PostSubject(subject);

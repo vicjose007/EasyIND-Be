@@ -47,6 +47,7 @@ namespace BarberVic.API.Controllers
             user.Email = request.Email;
             user.University = request.University;
             user.Phone = request.Phone;
+            user.RegistroId = request.RegistroId;
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
             PostUser(user);
@@ -146,6 +147,7 @@ namespace BarberVic.API.Controllers
             user.Email = request.Email;
             user.Phone = request.Phone;
             user.roles = request.roles;
+            user.RegistroId = request.RegistroId;
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
             PostUser(user);

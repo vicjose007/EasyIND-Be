@@ -49,6 +49,7 @@ namespace EasyIND.API.Controllers
         {
 
             career.CareerName = request.CareerName;
+            career.AreaId = request.AreaId;
             PostCareer(career);
 
             return Ok(career);
