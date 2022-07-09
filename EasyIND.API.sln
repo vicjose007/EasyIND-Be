@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyIND.API", "EasyIND.API\EasyIND.API.csproj", "{123427F6-D8EE-480C-8850-AB8A0568F4E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyIND.API", "EasyIND.API\EasyIND.API.csproj", "{123427F6-D8EE-480C-8850-AB8A0568F4E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyIND.Domain", "EasyIND.Domain\EasyIND.Domain.csproj", "{A08DB83E-40DE-4B20-A95B-E98E469DDF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyIND.Domain", "EasyIND.Domain\EasyIND.Domain.csproj", "{A08DB83E-40DE-4B20-A95B-E98E469DDF6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyIND.Application", "EasyIND.Application\EasyIND.Application.csproj", "{7FB143D2-2F72-4EE2-BA11-3167AB7A8528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyIND.Application", "EasyIND.Application\EasyIND.Application.csproj", "{7FB143D2-2F72-4EE2-BA11-3167AB7A8528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyIND.Infrastructure", "EasyIND.Infrastructure\EasyIND.Infrastructure.csproj", "{FBD45643-05DB-49E0-9B14-370798B93DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyIND.Infrastructure", "EasyIND.Infrastructure\EasyIND.Infrastructure.csproj", "{FBD45643-05DB-49E0-9B14-370798B93DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyIND.Test", "EasyIND.Test\EasyIND.Test.csproj", "{66C00779-E32E-4216-95A1-B1E66E2A764B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FBD45643-05DB-49E0-9B14-370798B93DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBD45643-05DB-49E0-9B14-370798B93DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBD45643-05DB-49E0-9B14-370798B93DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C00779-E32E-4216-95A1-B1E66E2A764B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C00779-E32E-4216-95A1-B1E66E2A764B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C00779-E32E-4216-95A1-B1E66E2A764B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C00779-E32E-4216-95A1-B1E66E2A764B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
